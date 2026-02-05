@@ -3,11 +3,11 @@ id: tm-reticulum-meshchat
 name: MeshChat
 version: "2.3.0"
 category: Social
-tagline: Off-grid mesh chat
+tagline: Decentralised off-grid mesh chat for all
 description: >
   A decentralized chat application built on the Reticulum networking stack for resilient, off-grid communication.
 developer: Liam Cottle
-website: https://liamcottle.com
+website: https://github.com/liamcottle
 repo: https://github.com/liamcottle/reticulum-meshchat
 support: https://github.com/technicallymobile/technically-mobile-umbrel-app-store/issues
 port: 8000
@@ -15,4 +15,4 @@ icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umb
 gallery:
   - https://github.com/technicallymobile/technically-mobile-umbrel-app-store/blob/main/tm-reticulum-meshchat/screenshot.png
 submitter: Technically Mobile
-submission: https://github.com/technicallymobile/technically-mobile-umbrel-app-store
+submission: https://github.com/technicallymobile/
