@@ -6,7 +6,7 @@ tagline: Off-grid mesh chat
 description: >
   A decentralized chat application built on the Reticulum
   networking stack for resilient, off-grid communication.
-developer: Mark Qvist
+developer: Liam Cottle
 website: https://reticulum.network
-repo: https://github.com/markqvist/reticulum-meshchat
+repo: https://github.com/liamcottle/reticulum-meshchat
 port: 8000
