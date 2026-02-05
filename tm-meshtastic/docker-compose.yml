@@ -1,0 +1,6 @@
+services:
+  app:
+    image: ghcr.io/meshtastic/web:nightly
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
