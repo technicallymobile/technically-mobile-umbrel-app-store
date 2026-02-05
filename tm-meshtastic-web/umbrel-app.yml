@@ -1,0 +1,18 @@
+manifestVersion: 1
+id: tm-meshtastic-web
+name: Meshtastic
+version: "nightly"
+category: Social
+tagline: Off-grid LoRa mesh communication made simple
+description: >
+  A web-based client for the Meshtastic project, enabling decentralized, off-grid communication over LoRa mesh networks. Connect to Meshtastic devices using supported browsers and manage nodes, messages, and channels.
+developer: Meshtastic Community
+website: https://meshtastic.org
+repo: https://github.com/meshtastic/web
+support: https://github.com/technicallymobile/technically-mobile-umbrel-app-store/issues
+port: 8080
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic-web/icon.png
+gallery:
+  - https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic-web/screenshot.png
+submitter: Technically Mobile
+submission: https://github.com/technicallymobile/
