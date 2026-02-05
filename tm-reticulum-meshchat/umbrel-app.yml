@@ -11,7 +11,7 @@ website: https://github.com/liamcottle
 repo: https://github.com/liamcottle/reticulum-meshchat
 support: https://github.com/technicallymobile/technically-mobile-umbrel-app-store/issues
 port: 8000
-icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-reticulum-meshchat/icon.svg
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-reticulum-meshchat/icon.png
 gallery:
   - https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-reticulum-meshchat/screenshot.png
 submitter: Technically Mobile
