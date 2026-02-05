@@ -1,20 +1,25 @@
 manifestVersion: 1
 id: tm-nomadnet
 name: NomadNet
-version: "0.5.4"
+version: "0.9.8"
 category: Social
 tagline: Terminal-based mesh messaging over Reticulum
 description: >
+
   ⚠️ WARNING: This app has NO WEB INTERFACE. 
+
   
   NomadNet is a terminal-based mesh messaging client. To use it, you must SSH into your Umbrel and run:
+
   
   sudo docker exec -it tm-nomadnet_app_1 nomadnet --textui
 
+  
   Note: Depending on the platform, the use of cursor to click on the menus should be possible.
         As a Windows user, this has been tried via Putty, CMD and PowerShell, and the mouse cursor worked flawlessly.
         It was actually much more responsive in PowerShell and CMD than Putty.
         Hope you enjoy! 😊
+
   
   [add your additional description here...]
 developer: Mark Qvist
