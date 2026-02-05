@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/markqvist/reticulum-meshchat:latest
+    image: ghcr.io/liamcottle/reticulum-meshchat:latest
     restart: unless-stopped
     ports:
       - "8000:8000"
