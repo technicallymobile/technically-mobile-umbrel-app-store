@@ -11,7 +11,7 @@ website: https://meshtastic.org
 repo: https://github.com/meshtastic/web
 support: https://github.com/technicallymobile/technically-mobile-umbrel-app-store/issues
 port: 8080
-icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic/meshastic.png
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic/icon.png
 gallery:
   - https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic/screenshot.webp
 submitter: Technically Mobile
