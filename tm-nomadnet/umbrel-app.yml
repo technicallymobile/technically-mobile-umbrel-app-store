@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: tm-nomadnet
+name: NomadNet
+version: "0.5.4"
+category: Social
+tagline: Terminal-based mesh messaging over Reticulum
+description: >
+  ⚠️ WARNING: This app has NO WEB INTERFACE. 
+  
+  NomadNet is a terminal-based mesh messaging client. To use it, you must SSH into your Umbrel and run:
+  
+  docker exec -it tm-nomadnet_app_1 nomadnet --textui
+  
+  [add your additional description here...]
+developer: Mark Qvist
+website: https://unsigned.io/nomadnet/
+repo: https://github.com/markqvist/NomadNet
+support: https://github.com/markqvist/NomadNet/discussions
+port: 4001
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-nomadnet/icon.png
+gallery:
+  - https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-nomadnet/screenshot1.png
+submitter: Technically Mobile
+submission: https://github.com/technicallymobile/
