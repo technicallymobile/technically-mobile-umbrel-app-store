@@ -1,0 +1,12 @@
+id: reticulum-meshchat
+name: Reticulum MeshChat
+version: "0.1.0"
+category: Social
+tagline: Off-grid mesh chat
+description: >
+  A decentralized chat application built on the Reticulum
+  networking stack for resilient, off-grid communication.
+developer: Mark Qvist
+website: https://reticulum.network
+repo: https://github.com/markqvist/reticulum-meshchat
+port: 8000
