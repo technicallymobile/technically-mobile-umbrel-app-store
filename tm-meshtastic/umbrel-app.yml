@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: tm-meshtastic-web
+id: tm-meshtastic
 name: Meshtastic
 version: "nightly"
 category: Social
@@ -11,8 +11,8 @@ website: https://meshtastic.org
 repo: https://github.com/meshtastic/web
 support: https://github.com/technicallymobile/technically-mobile-umbrel-app-store/issues
 port: 8080
-icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic-web/meshastic.png
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic/meshastic.png
 gallery:
-  - https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic-web/screenshot.webp
+  - https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic/screenshot.webp
 submitter: Technically Mobile
 submission: https://github.com/technicallymobile/
