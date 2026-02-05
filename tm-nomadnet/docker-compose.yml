@@ -3,7 +3,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: tm-nomadnet_app_1
-      #APP_PORT: 4001
+      APP_PORT: 4001
       PROXY_AUTH_ADD: "false"
   app:
     image: ghcr.io/markqvist/nomadnet:master
