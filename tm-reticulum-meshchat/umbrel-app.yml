@@ -1,12 +1,17 @@
-id: reticulum-meshchat
+manifestVersion: 1
+id: tm-reticulum-meshchat
 name: Reticulum MeshChat
 version: "0.1.0"
 category: Social
 tagline: Off-grid mesh chat
-description: >
-  A decentralized chat application built on the Reticulum
-  networking stack for resilient, off-grid communication.
+description: A decentralized chat application built on the Reticulum networking stack for resilient, off-grid communication.
 developer: Liam Cottle
 website: https://reticulum.network
 repo: https://github.com/liamcottle/reticulum-meshchat
+support: https://github.com/technicallymobile/technically-mobile-umbrel-app-store/issues
 port: 8000
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-reticulum-meshchat/icon.png
+gallery:
+  - https://placedog.net/500/281?random
+submitter: TechnicallyMobile
+submission: https://github.com/technicallymobile/technically-mobile-umbrel-app-store
