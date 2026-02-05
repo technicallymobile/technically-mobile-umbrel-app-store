@@ -1,8 +1,0 @@
-services:
-  app:
-    image: ghcr.io/liamcottle/reticulum-meshchat:latest
-    restart: unless-stopped
-    ports:
-      - "8000:8000"
-    volumes:
-      - ${APP_DATA_DIR}/data:/data
