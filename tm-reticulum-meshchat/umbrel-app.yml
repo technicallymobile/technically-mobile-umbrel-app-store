@@ -1,10 +1,11 @@
 manifestVersion: 1
 id: tm-reticulum-meshchat
-name: Reticulum MeshChat
-version: "0.1.0"
+name: MeshChat
+version: "2.3.0"
 category: Social
 tagline: Off-grid mesh chat
 description: A decentralized chat application built on the Reticulum networking stack for resilient, off-grid communication.
+A simple mesh network communications app powered by the Reticulum Network Stack.
 developer: Liam Cottle
 website: https://reticulum.network
 repo: https://github.com/liamcottle/reticulum-meshchat
