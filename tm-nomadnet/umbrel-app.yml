@@ -27,7 +27,7 @@ website: https://unsigned.io/nomadnet/
 repo: https://github.com/markqvist/NomadNet
 support: https://github.com/markqvist/NomadNet/discussions
 port: 4001
-icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-nomadnet/logo2.png
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-nomadnet/rns_logo_512.png
 gallery:
   - https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-nomadnet/nomadnet1.png
   - https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-nomadnet/nomadnet2.png
