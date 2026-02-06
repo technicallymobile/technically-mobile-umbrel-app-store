@@ -10,6 +10,8 @@ services:
   app:
     image: ghcr.io/minato-stack/lxmd:latest
     restart: unless-stopped
+    expose:
+      - "4010"
     volumes:
       - ${APP_DATA_DIR}/lxmf:/root/.lxmf
       - ${APP_DATA_DIR}/reticulum:/root/.reticulum
