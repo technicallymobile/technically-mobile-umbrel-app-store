@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: tm-lxmd
 name: LXMF Propagation Node
-version: "latest"
+version: "β 0.9.3"
 category: Infrastructure
 tagline: LXMF propagation daemon for Reticulum meshes
 description: >
@@ -16,9 +16,9 @@ description: >
   sudo docker logs -f tm-lxmd_app_1
 
 developer: Mark Qvist
-website: https://github.com/markqvist/LXMF/
+website: https://github.com/markqvist/
 repo: https://github.com/minato-stack/lxmd
-support: https://github.com/minato-stack/lxmd/issues
+support: https://github.com/markqvist/LXMF/blob/master/.github/ISSUE_TEMPLATE/%F0%9F%90%9B-bug-report.md
 port: 0
 icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-nomadnet/rns_logo_512.png
 gallery: []
