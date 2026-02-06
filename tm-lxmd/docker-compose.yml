@@ -3,7 +3,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: tm-lxmd_app_1
-      APP_PORT: 0
+      APP_PORT: 4001
       PROXY_AUTH_ADD: "false"
 
   app:
