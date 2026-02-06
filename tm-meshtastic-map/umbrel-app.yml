@@ -1,0 +1,27 @@
+manifestVersion: 1
+
+id: tm-meshtastic-map
+name: Meshtastic Map
+version: "latest"
+category: Social
+
+tagline: Live map of Meshtastic mesh nodes
+description: >
+  A real-time web map for visualizing Meshtastic mesh nodes collected via MQTT.
+  View node locations, metadata, and activity from across the mesh network
+  using a simple, lightweight web interface.
+
+developer: Liam Cottle
+website: https://meshtastic.liamcottle.net
+repo: https://github.com/liamcottle/meshtastic-map
+support: https://github.com/liamcottle/meshtastic-map/issues
+
+port: 8081
+
+icon: https://raw.githubusercontent.com/liamcottle/meshtastic-map/master/public/icon.png
+
+gallery:
+  - https://raw.githubusercontent.com/liamcottle/meshtastic-map/master/public/screenshot.png
+
+submitter: Technically Mobile
+submission: https://github.com/technicallymobile/
