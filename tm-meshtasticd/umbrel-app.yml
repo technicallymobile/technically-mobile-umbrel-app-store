@@ -8,20 +8,17 @@ description: >
 
   ⚠️ WARNING: This app has NO WEB INTERFACE.
 
-  Meshtasticd runs the Meshtastic daemon in the background and connects
-  directly to a LoRa radio via USB, UART, or GPIO.
+  Meshtasticd runs the Meshtastic daemon in the background and connects directly to a LoRa radio via USB, UART, or GPIO.
 
-  This app is intended to be used as infrastructure for other Meshtastic
-  clients and services.
+  This app is intended to be used as infrastructure for other Meshtastic clients and services.
 
   Logs can be viewed with:
 
   sudo docker logs tm-meshtasticd_app_1
-
 developer: Meshtastic
 website: https://meshtastic.org
 repo: https://github.com/meshtastic/meshtasticd
-support: https://github.com/meshtastic/meshtasticd/issues
+support: https://meshtastic.org/docs/software/linux/installation/
 port: 4403
 icon: https://raw.githubusercontent.com/meshtastic/meshtastic/master/logo/meshtastic_logo_512.png
 gallery: []
