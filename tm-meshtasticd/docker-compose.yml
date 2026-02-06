@@ -17,7 +17,9 @@ services:
     command: >
       sh -c '
       if [ ! -f /config/config.yaml ]; then
-        echo "MACAddress: \"02:00:00:00:00:01\"" > /config/config.yaml;
+        cat <<EOF > /config/config.yaml
+MACAddressSource: "random"
+EOF
       fi;
       exec meshtasticd --config=/config/config.yaml
       '
