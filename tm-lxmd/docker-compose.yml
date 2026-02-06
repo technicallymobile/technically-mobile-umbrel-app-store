@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tm-lxmd_app_1
+      APP_PORT: 0
+      PROXY_AUTH_ADD: "false"
+
+  app:
+    image: ghcr.io/minato-stack/lxmd:latest
+    restart: unless-stopped
+    volumes:
+      - ${APP_DATA_DIR}/lxmf:/root/.lxmf
+      - ${APP_DATA_DIR}/reticulum:/root/.reticulum
