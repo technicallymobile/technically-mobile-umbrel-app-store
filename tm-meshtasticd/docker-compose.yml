@@ -13,6 +13,11 @@ services:
     volumes:
       - ${APP_DATA_DIR}/config:/config
       - ${APP_DATA_DIR}/data:/data
-    devices:
-      - /dev/ttyUSB0:/dev/ttyUSB0
     privileged: true
+    command: >
+      sh -c '
+      if [ ! -f /config/config.yaml ]; then
+        echo "MACAddress: \"02:00:00:00:00:01\"" > /config/config.yaml;
+      fi;
+      exec meshtasticd --config=/config/config.yaml
+      '
