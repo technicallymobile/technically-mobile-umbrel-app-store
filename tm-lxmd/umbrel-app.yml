@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: tm-lxmd
+name: LXMF Propagation Node
+version: "latest"
+category: Infrastructure
+tagline: LXMF propagation daemon for Reticulum meshes
+description: >
+
+  ⚠️ WARNING: This app has NO WEB INTERFACE.
+
+  This app runs an LXMF propagation node (`lxmd`) for the Reticulum network. It is intended as background infrastructure for LXMF clients such as NomadNet, Sideband, and MeshChat.
+
+  The daemon runs automatically on startup.
+  Logs can be viewed with:
+
+  sudo docker logs -f tm-lxmd_app_1
+
+developer: Mark Qvist
+website: https://github.com/markqvist/LXMF/
+repo: https://github.com/minato-stack/lxmd
+support: https://github.com/minato-stack/lxmd/issues
+port: 0
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-nomadnet/rns_logo_512.png
+gallery: []
+submitter: Technically Mobile
+submission: https://github.com/technicallymobile/
