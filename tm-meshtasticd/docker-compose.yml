@@ -15,11 +15,12 @@ services:
       - ${APP_DATA_DIR}/data:/data
     privileged: true
     command: >
-      sh -c '
-      if [ ! -f /config/config.yaml ]; then
-        cat <<EOF > /config/config.yaml
+  sh -c '
+  if ! grep -q "^MACAddress" /config/config.yaml 2>/dev/null && \
+     ! grep -q "^MACAddressSource" /config/config.yaml 2>/dev/null; then
+    cat <<EOF > /config/config.yaml
 MACAddressSource: "random"
 EOF
-      fi;
-      exec meshtasticd --config=/config/config.yaml
-      '
+  fi;
+  exec meshtasticd --config=/config/config.yaml
+  '
