@@ -18,7 +18,7 @@ support: https://github.com/meshcore-dev/MeshCore/issues
 
 port: 8082
 
-icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshcore/meshcore_android_logo.png
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshcore-web/meshcore_android_logo.png
 
 gallery:
   - https://raw.githubusercontent.com/meshcore-dev/MeshCore/master/docs/screenshot.png
