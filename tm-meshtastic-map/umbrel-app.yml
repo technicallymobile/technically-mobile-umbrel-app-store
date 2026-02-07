@@ -18,7 +18,7 @@ support: https://github.com/liamcottle/meshtastic-map/issues
 
 port: 8081
 
-icon: https://raw.githubusercontent.com/liamcottle/meshtastic-map/master/public/icon.png
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic/meshtasticpowered.png
 
 gallery:
   - https://raw.githubusercontent.com/liamcottle/meshtastic-map/master/public/screenshot.png
