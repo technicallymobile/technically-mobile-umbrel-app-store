@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: tm-meshtastic
 name: Meshtastic
-version: "nightly"
+version: "2.6.7"
 category: Social
 tagline: Off-grid LoRa mesh communication made simple
 description: >
