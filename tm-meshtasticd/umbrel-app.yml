@@ -20,7 +20,7 @@ website: https://meshtastic.org
 repo: https://github.com/meshtastic/meshtasticd
 support: https://meshtastic.org/docs/software/linux/installation/
 port: 4403
-icon: https://raw.githubusercontent.com/meshtastic/meshtastic/master/logo/meshtastic_logo_512.png
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic/meshtasticpowered.png
 gallery: []
 submitter: Technically Mobile
 submission: https://github.com/technicallymobile/
