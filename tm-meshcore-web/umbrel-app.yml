@@ -7,9 +7,7 @@ category: Social
 
 tagline: Web interface for the MeshCore mesh network
 description: >
-  A lightweight web interface for the MeshCore project, served as a static
-  web application via Docker. View and interact with MeshCore-compatible
-  mesh networks using a simple browser-based UI.
+  A lightweight web interface for the MeshCore project, served as a static web application via Docker. View and interact with MeshCore-compatible mesh networks using a simple browser-based UI.
 
 developer: MeshCore Community
 website: https://meshcore.co.uk
