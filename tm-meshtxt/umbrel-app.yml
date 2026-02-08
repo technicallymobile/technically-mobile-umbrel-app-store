@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: tm-meshtxt
+name: MeshTXT
+tagline: Web-based Meshtastic client
+icon: https://raw.githubusercontent.com/liamcottle/meshtxt/master/screenshots/screenshot.png
+category: Communication
+version: "1.0.0"
+port: 8083
+description: >-
+  A simple, mobile friendly, web based Meshtastic client.
+
+***Please note: this will only work on an x86 64 bit device***
+  
+  Connect to Meshtastic devices over Bluetooth, Serial, or HTTP.
+  Send and receive messages, view node info, and perform trace routes.
+developer: Liam Cottle
+website: https://meshtxt.liamcottle.net
+repo: https://github.com/liamcottle/meshtxt
+support: https://github.com/liamcottle/meshtxt/issues
+port: 8083
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic/meshtasticpowered.png
+gallery:
+  - https://raw.githubusercontent.com/liamcottle/meshtxt/master/screenshots/screenshot.png
+releaseNotes: "Release notes test"
+submitter: Technically Mobile
+submission: https://github.com/technicallymobile/technically-mobile-umbrel-app-store
