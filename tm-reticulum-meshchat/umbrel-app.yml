@@ -6,6 +6,17 @@ category: Social
 tagline: Decentralised off-grid mesh chat for all
 description: >
   A decentralized chat application built on the Reticulum networking stack for resilient, off-grid communication.
+
+  For a list of interfaces/endpoints, please browse to the following URL:
+
+  https://unsigned.io/rnode_bootstrap_console/r/connect.html
+
+  To add, click on "Interfaces" in the left column of the web UI.
+  
+  They can be added one by one, or by making a list in a text editor, and importing it into the web UI.
+
+  A restart of the app will be required from your Umbrel start page.
+  
 developer: Liam Cottle
 website: https://github.com/liamcottle
 repo: https://github.com/liamcottle/reticulum-meshchat
