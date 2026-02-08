@@ -9,7 +9,7 @@ port: 8083
 description: >-
   A simple, mobile friendly, web based Meshtastic client.
 
-***Please note: this will only work on an x86 64 bit device***
+  Please note; this will only work on an x86 64 bit device***
   
   Connect to Meshtastic devices over Bluetooth, Serial, or HTTP.
   Send and receive messages, view node info, and perform trace routes.
