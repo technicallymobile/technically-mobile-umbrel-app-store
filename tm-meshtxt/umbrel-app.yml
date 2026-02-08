@@ -2,7 +2,7 @@ manifestVersion: 1
 id: tm-meshtxt
 name: MeshTXT
 version: "1.0.0"
-category: Communication
+category: Social
 tagline: Web-based Meshtastic client
 description: >-
   A simple, mobile friendly, web based Meshtastic client.
@@ -14,7 +14,7 @@ website: https://meshtxt.liamcottle.net
 repo: https://github.com/liamcottle/meshtxt
 support: https://github.com/liamcottle/meshtxt/issues
 port: 8083
-icon: https://raw.githubusercontent.com/liamcottle/meshtxt/master/screenshots/screenshot.png
+icon: https://raw.githubusercontent.com/technicallymobile/technically-mobile-umbrel-app-store/main/tm-meshtastic/meshtasticpowered.png
 gallery:
   - https://raw.githubusercontent.com/liamcottle/meshtxt/master/screenshots/screenshot.png
 submitter: Technically Mobile
