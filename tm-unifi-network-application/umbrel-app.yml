@@ -1,0 +1,19 @@
+manifestVersion: 1
+id: tm-unifi-network-application
+name: UniFi Network Application
+version: "latest"
+category: Networking
+tagline: Manage your Ubiquiti UniFi devices
+description: >
+  The UniFi Network Application is a powerful wireless network management
+  software for Ubiquiti UniFi devices. Adopt and configure access points,
+  switches, and gateways from a single interface. No cloud account required.
+developer: Ubiquiti
+website: https://ui.com
+repo: https://github.com/linuxserver/docker-unifi-network-application
+support: https://github.com/linuxserver/docker-unifi-network-application/issues
+port: 8443
+icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/ubiquiti-unifi.png
+gallery: []
+submitter: Technically Mobile
+submission: https://github.com/technicallymobile/
