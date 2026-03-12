@@ -25,7 +25,7 @@ services:
       - MONGO_PASS=unifi_password
       - MONGO_PORT=27017
       - MONGO_DBNAME=unifi
-      - MONGO_AUTHSOURCE=admin
+      - MONGO_AUTHSOURCE=unifi
     volumes:
       - ${APP_DATA_DIR}/config:/config
     restart: unless-stopped
@@ -34,9 +34,8 @@ services:
 
   unifi-db:
     image: mongo:4.4
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=unifi
-      - MONGO_INITDB_ROOT_PASSWORD=unifi_password
     volumes:
       - ${APP_DATA_DIR}/db:/data/db
     restart: unless-stopped
+    entrypoint: >
+      bash -c "mkdir -p /docker-entrypoint-initdb.d && printf 'db.getSiblingDB(\"unifi\").createUser({user:\"unifi\",pwd:\"unifi_password\",roles:[{role:\"dbOwner\",db:\"unifi\"},{role:\"dbOwner\",db:\"unifi_stat\"}]});' > /docker-entrypoint-initdb.d/init.js && exec docker-entrypoint.sh mongod"
