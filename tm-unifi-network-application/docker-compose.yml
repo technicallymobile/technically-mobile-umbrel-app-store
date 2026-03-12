@@ -23,17 +23,9 @@ services:
     restart: unless-stopped
     depends_on:
       - unifi-db
-    networks:
-      - unifi-network
 
   unifi-db:
     image: mongo:4.4
     volumes:
       - ${APP_DATA_DIR}/db:/data/db
     restart: unless-stopped
-    networks:
-      - unifi-network
-
-networks:
-  unifi-network:
-    driver: bridge
