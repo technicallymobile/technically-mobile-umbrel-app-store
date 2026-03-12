@@ -1,0 +1,39 @@
+version: "3.7"
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tm-unifi-network-application_app_1
+      APP_PORT: "8443"
+      PROXY_AUTH_ADD: "false"
+
+  app:
+    image: lscr.io/linuxserver/unifi-network-application:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - MONGO_HOST=tm-unifi-network-application_unifi-db_1
+      - MONGO_USER=unifi
+      - MONGO_PASS=unifi_password
+      - MONGO_PORT=27017
+      - MONGO_DBNAME=unifi
+      - MONGO_AUTHSOURCE=
+    volumes:
+      - ${APP_DATA_DIR}/config:/config
+    restart: unless-stopped
+    depends_on:
+      - unifi-db
+    networks:
+      - unifi-network
+
+  unifi-db:
+    image: mongo:4.4
+    volumes:
+      - ${APP_DATA_DIR}/db:/data/db
+    restart: unless-stopped
+    networks:
+      - unifi-network
+
+networks:
+  unifi-network:
+    driver: bridge
