@@ -21,9 +21,11 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
       - MONGO_HOST=tm-unifi-network-application_unifi-db_1
+      - MONGO_USER=unifi
+      - MONGO_PASS=unifi_password
       - MONGO_PORT=27017
       - MONGO_DBNAME=unifi
-      - MONGO_AUTHSOURCE=
+      - MONGO_AUTHSOURCE=admin
     volumes:
       - ${APP_DATA_DIR}/config:/config
     restart: unless-stopped
@@ -32,6 +34,9 @@ services:
 
   unifi-db:
     image: mongo:4.4
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=unifi
+      - MONGO_INITDB_ROOT_PASSWORD=unifi_password
     volumes:
       - ${APP_DATA_DIR}/db:/data/db
     restart: unless-stopped
