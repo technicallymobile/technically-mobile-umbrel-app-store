@@ -1,21 +1,7 @@
-version: "3.7"
-services:
-  app_proxy:
-    environment:
-      APP_HOST: tm-unifi-network-application_web_1
-      APP_PORT: 8080
-      PROXY_AUTH_ADD: "false"
-
-  web:
-    image: nginx:alpine
-    restart: unless-stopped
-    command: >
-      sh -c "echo 'server { listen 8080; location / { proxy_pass https://tm-unifi-network-application_app_1:8443; proxy_ssl_verify off; proxy_set_header Host $$host; proxy_set_header X-Real-IP $$remote_addr; } }' > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
-    depends_on:
-      - app
-
-  app:
+app:
     image: lscr.io/linuxserver/unifi-network-application:latest
+    ports:
+      - "8443:8443"
     environment:
       - PUID=1000
       - PGID=1000
@@ -31,11 +17,8 @@ services:
     restart: unless-stopped
     depends_on:
       - unifi-db
+```
 
-  unifi-db:
-    image: mongo:4.4
-    volumes:
-      - ${APP_DATA_DIR}/db:/data/db
-    restart: unless-stopped
-    entrypoint: >
-      bash -c "mkdir -p /docker-entrypoint-initdb.d && printf 'db.getSiblingDB(\"unifi\").createUser({user:\"unifi\",pwd:\"unifi_password\",roles:[{role:\"dbOwner\",db:\"unifi\"},{role:\"dbOwner\",db:\"unifi_stat\"}]});' > /docker-entrypoint-initdb.d/init.js && exec docker-entrypoint.sh mongod"
+Push, reinstall, then go to:
+```
+https://10.150.40.145:8443
