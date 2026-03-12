@@ -1,5 +1,5 @@
- version: "3.7"
-  services:
+version: "3.7"
+services:
     app_proxy:
       environment:
         APP_HOST: tm-unifi-network-application_web_1
